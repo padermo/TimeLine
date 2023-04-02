@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header__content">
+    <h1 class="header__title">Scroll Animated</h1>
+  </header>
+
+  <section class="section">
+    <div class="section__content">
+      <div class="section__element">
+        <img src="./assets/image1.webp" alt="image 1" class="section__image" data-aos="fade-right">
+        <h4 class="section__text">Image One</h4>
+      </div>
+      <div class="section__element">
+        <img src="./assets/image2.webp" alt="image 2" class="section__image section__image--rigth" data-aos="fade-left">
+        <h4 class="section__text section__text--rigth">Image Two</h4>
+      </div>
+      <div class="section__element">
+        <img src="./assets/image3.webp" alt="image 3" class="section__image" data-aos="fade-right">
+        <h4 class="section__text">Image Tree</h4>
+      </div>
+      <div class="section__element">
+        <img src="./assets/image4.webp" alt="image 4" class="section__image section__image--rigth" data-aos="fade-left">
+        <h4 class="section__text section__text--rigth">Image Four</h4>
+      </div>
+      <div class="section__element">
+        <img src="./assets/image5.webp" alt="image 5" class="section__image" data-aos="fade-right">
+        <h4 class="section__text">Image Five</h4>
+      </div>
+      <div class="section__element">
+        <img src="./assets/image6.webp" alt="image 6" class="section__image section__image--rigth" data-aos="fade-left">
+        <h4 class="section__text section__text--rigth">Image Six</h4>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 2000,
+      once: true,
+      delay: 100
+    });
+  </script>
+</body>
+</html>
